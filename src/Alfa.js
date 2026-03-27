@@ -1,0 +1,1 @@
+<div className="h-20 w-20 bg-red-500 shadow-[0_35px_60px_-15px_rgba(255,0,0,0.5)]"></div>
