@@ -1,19 +1,25 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Alfa from './Alfa';
+// Nanti anggota lain tinggal menambahkan import mereka di sini, misal: import Dhea from './Dhea';
 
 function App() {
   return (
-    // Menggunakan class Tailwind: flex, justify-center, bg-slate-100, dll.
-    <div className="flex justify-center items-center h-screen bg-slate-100">
-      <div className="text-center p-10 bg-white shadow-xl rounded-lg">
-        <h1 className="text-4xl font-bold text-blue-600 underline mb-4">
-          Tailwind CSS Berhasil!
-        </h1>
-        <p className="text-gray-600">
-          Jika Anda melihat teks biru besar dan background abu-abu terang, 
-          artinya konfigurasi Anda sudah benar.
-        </p>
+    <Router>
+      <div>
+        {/* Navigasi Sementara untuk kemudahan tes */}
+        <nav className="p-4 bg-gray-800 text-white flex gap-4 justify-center">
+          <Link to="/alfa" className="hover:text-blue-300">Profil Alfa</Link>
+          {/* <Link to="/dhea" className="hover:text-blue-300">Profil Dhea</Link> */}
+        </nav>
+
+        {/* Rute URL */}
+        <Routes>
+          <Route path="/alfa" element={<Alfa />} />
+          {/* <Route path="/dhea" element={<Dhea />} /> */}
+        </Routes>
       </div>
-    </div>
+    </Router>
   );
 }
 
