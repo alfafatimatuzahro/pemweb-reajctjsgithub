@@ -7,7 +7,7 @@ const Nadia = () => {
         
         <div className="bg-blue-600 p-8 text-white flex flex-col items-center justify-center w-full md:w-1/3">
           <img 
-            src="/images/foto-nadia.jpg" 
+            src="/images/foto-Nadia.jpg" 
             alt="Profil Nadia" 
             className="w-40 h-40 rounded-full border-4 border-white shadow-lg mb-4 object-cover"
           />
@@ -15,7 +15,7 @@ const Nadia = () => {
           <p className="text-blue-200">Kelas: T2C</p>
           <p className="text-blue-200">Prodi: Teknologi Informasi</p>
           <p className="text-blue-200 mt-2 text-sm bg-blue-700 px-3 py-1 rounded-full">
-            Domisili: Blitar
+            Domisili: Indonesia
           </p>
         </div>
 
