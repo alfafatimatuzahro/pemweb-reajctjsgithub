@@ -20,18 +20,41 @@ const Dhea = () => {
         </div>
 
         <div className="p-8 w-full md:w-2/3">
-          <h3 className="text-3xl font-extrabold text-gray-800 mb-4 border-b-4 border-blue-500 inline-block">
-            Tentang Diri
-          </h3>
-          <div className="text-gray-600 leading-relaxed text-justify">
-            <p>
-              Perkenalkan, nama saya adalah Dhea Yolanda Saragih. Saya merupakan mahasiswa dari kelas T2C program studi Teknologi Informasi. 
-              Saya memiliki ketertarikan yang besar terhadap dunia IT serta perkembangan teknologi digital yang semakin pesat. 
-              Saya juga memiliki rasa ingin tahu yang tinggi dan semangat untuk terus belajar hal-hal baru, khususnya dalam bidang pengembangan web dan pemrograman. 
-              Harapan saya ke depan adalah dapat menjadi seorang profesional di bidang teknologi yang mampu menciptakan solusi yang bermanfaat bagi masyarakat. 
-              Selain itu, saya juga senang mengeksplorasi hal-hal baru dan mengembangkan kemampuan diri agar dapat bersaing di dunia kerja.
-            </p>
-          </div>
+  <h3 className="text-3xl font-extrabold text-gray-800 mb-4 border-b-4 border-blue-500 inline-block">
+    Tentang Diri
+  </h3>
+
+  <div className="text-gray-600 leading-relaxed text-justify">
+    <p>
+      Perkenalkan, nama saya adalah Dhea Yolanda Saragih. Saya merupakan mahasiswa dari kelas T2C program studi Teknologi Informasi. 
+      Saya memiliki ketertarikan yang besar terhadap dunia IT serta perkembangan teknologi digital yang semakin pesat. 
+      Saya juga memiliki rasa ingin tahu yang tinggi dan semangat untuk terus belajar hal-hal baru, khususnya dalam bidang pengembangan web dan pemrograman. 
+      Harapan saya ke depan adalah dapat menjadi seorang profesional di bidang teknologi yang mampu menciptakan solusi yang bermanfaat bagi masyarakat. 
+      Selain itu, saya juga senang mengeksplorasi hal-hal baru dan mengembangkan kemampuan diri agar dapat bersaing di dunia kerja.
+    </p>
+  </div>
+
+  {/* 🔥 TAMBAHAN SOSMED */}
+  <div className="mt-6">
+    <h4 className="text-xl font-semibold mb-2 text-gray-800">Kontak</h4>
+    <div className="flex flex-col gap-2 text-blue-600">
+      <a 
+        href="https://www.instagram.com/dheyollaa?igsh=bHlzY3VoZHl1azc5" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="hover:underline hover:text-blue-800"
+      >
+        📷 Instagram
+      </a>
+
+      <a 
+        href="mailto:deasaragih586@gmail.com"
+        className="hover:underline hover:text-blue-800"
+      >
+        📧 Email
+      </a>
+    </div>
+  </div>
         </div>
 
       </div>
