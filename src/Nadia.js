@@ -29,9 +29,25 @@ const Nadia = () => {
                 Selain mendalami pemrograman, saya senang mengeksplorasi sisi visual dan teknis dalam membangun sebuah platform web agar lebih interaktif. 
                 Saya percaya bahwa belajar adalah proses tanpa henti, karena itu saya selalu berusaha meningkatkan skill diri agar siap memberikan kontribusi nyata di dunia kerja profesional nantinya.
             </p>
+            <div className="mt-6">
+    <h4 className="text-xl font-semibold mb-2 text-gray-800">Kontak</h4>
+    <div className="flex flex-col gap-2 text-blue-600">
+      <a 
+        href="https://www.instagram.com/naadiiiaaa.a?igsh=cHZqZ3V1MGJjYjFs&utm_source=qr" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="hover:underline hover:text-blue-800"
+      >
+        📷 Instagram
+      </a>
+      <a 
+        href="mailto:oktavianadiasalwa@gmail.com"
+        className="hover:underline hover:text-blue-800"
+      >
+        📧 Email
+      </a>
           </div>
         </div>
-
       </div>
     </div>
   );
