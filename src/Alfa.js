@@ -11,25 +11,46 @@ const Alfa = () => {
             alt="Profil Alfa" 
             className="w-40 h-40 rounded-full border-4 border-white shadow-lg mb-4 object-cover"
           />
-          <h2 className="text-2xl font-bold mb-1">Alfa Fatima</h2>
+          <h2 className="text-2xl font-bold mb-1">Alfa Fatimatuzahro'</h2>
           <p className="text-blue-200">Kelas: T2C</p>
           <p className="text-blue-200">Prodi: Teknologi Informasi</p>
           <p className="text-blue-200 mt-2 text-sm bg-blue-700 px-3 py-1 rounded-full">
-            Domisili: Blitar
+            Domisili: Indonesia
           </p>
         </div>
 
         <div className="p-8 w-full md:w-2/3">
-          <h3 className="text-3xl font-extrabold text-gray-800 mb-4 border-b-4 border-blue-500 inline-block">
-            Tentang Diri
-          </h3>
-          <div className="text-gray-600 leading-relaxed text-justify">
-            <p>
-              Perkenalkan, nama saya adalah Alfa Fatima Saya merupakan mahasiswa di Universitas Brawijaya jurusan Teknologi Informasi. Alasan saya memilih jurusan ini karena saya memiliki ketertarikan terhadap dunia IT dan saya memiliki rasa keingintahuan yang tinggi, harapannya saya dapat menjaadi programmer proffesional yang dapat berguna dan bermanfaat bagi orang orng dilingkungan saya. Saat ini saya sedang mempelajari berbagai teknologi pengembangan web seperti React JS dan Tailwind CSS. Selain kuliah, saya memiliki hobi bermain game online yang masih selaras dengan perteknologian. Saya memiliki cita-cita untuk menjadi seorang Software Engineer yang ahli di bidang Frontend Development. Pengalaman saya yaitu mengerjakan project project mata kuliah, dan dalam waktu dekat ini saya akan menyelesaikan project based learning yang merupakan project program dari fakultas vokasi Universitas Brawijaya
-            </p>
-          </div>
-        </div>
+  <h3 className="text-3xl font-extrabold text-gray-800 mb-4 border-b-4 border-blue-500 inline-block">
+    Tentang Diri
+  </h3>
 
+  <div className="text-gray-600 leading-relaxed text-justify">
+    <p>
+      Perkenalkan, nama saya adalah Alfa Fatima Saya merupakan mahasiswa di Universitas Brawijaya jurusan Teknologi Informasi. Alasan saya memilih jurusan ini karena saya memiliki ketertarikan terhadap dunia IT dan saya memiliki rasa keingintahuan yang tinggi, harapannya saya dapat menjaadi programmer proffesional yang dapat berguna dan bermanfaat bagi orang orng dilingkungan saya. Saat ini saya sedang mempelajari berbagai teknologi pengembangan web seperti React JS dan Tailwind CSS. Selain kuliah, saya memiliki hobi bermain game online yang masih selaras dengan perteknologian. Saya memiliki cita-cita untuk menjadi seorang Software Engineer yang ahli di bidang Frontend Development. Pengalaman saya yaitu mengerjakan project project mata kuliah, dan dalam waktu dekat ini saya akan menyelesaikan project based learning yang merupakan project program dari fakultas vokasi Universitas Brawijaya
+    </p>
+  </div>
+
+  <div className="mt-6">
+    <h4 className="text-xl font-semibold mb-2 text-gray-800">Kontak</h4>
+    <div className="flex flex-col gap-2 text-blue-600">
+      <a 
+        href="https://www.instagram.com/k.yeraa_ng?igsh=MWJoanFraTlwc3BrdQ==" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="hover:underline hover:text-blue-800"
+      >
+        📷 Instagram
+      </a>
+
+      <a 
+        href="mailto:alfafatimatuzahro@gmail.com"
+        className="hover:underline hover:text-blue-800"
+      >
+        📧 Email
+      </a>
+    </div>
+  </div>
+        </div>
       </div>
     </div>
   );
